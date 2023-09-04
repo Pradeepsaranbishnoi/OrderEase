@@ -1,0 +1,301 @@
+@media only screen and (min-width:1024px) and (max-width:1254px) {
+    .half-div.img img{
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin: 0;
+    }
+    .ss-img{
+        max-width: 85%;
+    }
+    .fourth-s .half-div .left {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .fourth-s .half-div .bottom{
+        position: absolute;
+        right: -10px;
+        bottom: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .full-column .half-div .half-img{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px){
+    .menu{
+        position: relative;
+    }
+    .show-menu{
+        display: block !important;
+    }
+    .main-menu {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .main-menu ul {
+        display: grid;
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        left: 0;
+        background: white;
+        top: 95px;
+        padding: 20px 30px;
+    }
+    .menu-button{
+        display: none;
+    }
+    .margin{
+        margin: 0 15px;
+    }
+    .fs-div h1{
+        font-size: 50px;
+    }
+    .second-section .left,.second-section .right{
+        width: 90px;
+    }
+    .half-div.img img{
+        position: relative;
+        left: 0;
+        margin: 0;
+    }
+    .ss-duo-div{
+        flex-direction: column-reverse;
+        
+    }
+    .full-column{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .half-div p{
+        margin: 0;
+    }
+    .fourth-s .half-div-bg{
+        gap: 15px;
+    }
+    .ts-section .margin{
+        margin: 0px;
+    }
+    .full-column .half-div .max-width{
+        max-width: 100%;
+    }
+    .fourth-s,.ts-section{
+        margin:50px 10px;
+    }
+    
+    .half-div{
+        max-width: 100%;
+    }
+    .half-div h2,.ts-div h2{
+        font-size:35px;
+    }
+    .ts-div{
+        padding: 50px 30px;
+    }
+    .ss-img{
+        max-width: 85%;
+    }
+    .fourth-s .half-div .left {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .fourth-s .half-div .bottom{
+        position: absolute;
+        right: -10px;
+        bottom: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .main-footer-bg{
+        padding: 150px 30px 0 30px
+    }
+    .main-footer-bg .margin{
+        margin: 0;
+    }
+    .main-footer{
+        display: grid;
+    }
+    .footer-logo p{
+        max-width: 100%;
+    }
+    .footer-logo{
+    max-width: 100%;;
+    }
+    .f-page{
+        max-width: 100%;
+    }
+    .border{
+        margin: 20px 0 0 0;
+    }
+    .f-margin{
+        margin: 0;
+    }
+}
+@media only screen and (max-width:767px){
+    .main-menu ul {
+        display: grid;
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        left: 0;
+        background: white;
+        top: 95px;
+        padding: 20px 30px;
+    }
+    .menu{
+        position: relative;
+    }
+    .show-menu{
+        display: block !important;
+    }
+    .main-menu {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .menu-button{
+        display: none;
+    }
+    .margin{
+        margin: 0 15px;
+    }
+    .first-section .bg-container{
+        padding: 70px 10px 200px 10px;
+    }
+    .full-column .half-div .max-width{
+        max-width: 100%;
+    }
+    .fs-div h1,.ts-div h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .second-section{
+        margin-top: -150px;
+    }
+    .ss-img{
+        height: 350px;
+    }
+    .ratings{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .ss-duo-div{
+        margin: 50px 0;
+        flex-direction: column-reverse;
+    }
+    .ts-section{
+        margin: 50px 0px 0 0px;
+    }
+    .ts-div{
+        padding: 50px 10px;
+    }
+    .ss-duo-div .half-div{
+        max-width: 100%;
+    }
+    .full-column{
+        padding: 50px 0 0 0;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .half-div li{
+        font-size: 16px;
+    }
+    .fourth-s{
+        margin: 50px 10px;
+    }
+    .fourth-s .half-div-bg{
+        padding: 50px 10px;
+        gap: 10px;
+    }
+    .half-div{
+        max-width: 100% ;
+    }
+    .half-div h2{
+        font-size: 30px;
+    }
+    .half-div p{
+        margin: 0;
+    }
+    .fourth-s .full-column{
+        gap: 50px;
+    }
+    .half-div.img img{
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin: 0;
+    }
+    .full-column .half-div .half-img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .ss-img{
+        max-width: 85%;
+    }
+    .fourth-s .half-div .left {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .fourth-s .half-div .bottom{
+        position: absolute;
+        right: -10px;
+        bottom: -10px;
+        max-width: 12%;
+        z-index: 0;
+    }
+    .footer .ts-div .right,.footer .ts-div .left{
+        width: 150px;
+    }
+    .main-footer{
+        flex-direction: column;
+    }
+    .main-footer-bg{
+        padding: 165px 10px 0 10px;
+    }
+    .main-footer-bg .margin{
+        margin: 0px;
+    }
+    .footer-logo,.f-page{
+        max-width: 100%;
+    }
+    .f-page h3{
+        margin: 0;
+    }
+    .border{
+        margin: 10px 0;
+    }
+    .f-page,.copyright-footer{
+        flex-direction: column;
+        gap: 10px;
+       justify-content: left;
+       align-items: baseline;
+    }
+    .f-margin{
+        margin: 0;
+    }
+    .copyright-footer p{
+        margin: 0px;
+    }
+}
